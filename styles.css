@@ -2,7 +2,12 @@
 body{
 	background-color:#2af266;
 }
-
+.product{
+display:flex;
+	justify-content:space-around;
+	align-items:center
+	
+}
 .product{
 	background-color:white;
 	
@@ -24,8 +29,13 @@ position:absolute;
 }
 ul{
 	display:flex;
-	
-}
+	}
 li{
 	border:1px solid lightgray;
+}
+button{
+	background-color:red;
+	padding:10px;
+	border-radius:10px;
+	color:white;
 }
